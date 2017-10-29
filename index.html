@@ -1,34 +1,61 @@
 <html>
+
 <head>
 	<title>Slap Object Game</title>
 	<link rel="stylesheet" href="game.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
+
 </head>
+
 <body>
-	
-<header>
-		<span>Health:<span id="health">100</span></span>
-		<span>Hits:<span id="hits">0</span></span>
-		<span>target</span>		
-</header>
 
-<div class="container">
-<div class="image">
-	<img src="http://placehold.it//200x200" alt="phhold">
-</div>
-</div>
+	<header>
+		<div class="char2">
+			<span>Health:
+				<span id="health">100</span>
+			</span>
+			<span>Hits:
+				<span id="hits">0</span>
+			</span>
+			<span>char2</span>
+		</div>
+	</header>
+
+	<div class="container d-flex">
+		<div class="image d-flex justify-content-center">
+			<img class="backgroundimage" src="http://1.bp.blogspot.com/-nD8aC4TOQlA/UamzxSIEucI/AAAAAAAAApg/1_PgizghPUY/s1600/RR+Background+Normal.jpg"
+			 alt="phhold">
+			<div class="col-med-4">
+				<img src="https://vignette.wikia.nocookie.net/looneytunes/images/1/13/Looneytunes-roadrunner.gif/revision/latest?cb=20130303015934"
+				 alt="">
+			</div>
+			<div class="row ">
+				<div class="col-med-4"></div>
+			</div>
+		</div>
+	</div>
 
 
-<footer>
-<button onclick="slap()">Slap</button>
-<button onclick="punch()">Punch</button>
-<button onclick="kick()">Kick</button>
+	<footer></footer>
+		<div class="row">
+			<div class="col-med-6">
+				<button onclick="slap(wilecyote)">Slap</button>
+				<button onclick="punch()">Punch</button>
+				<button onclick="kick()">Kick</button>
+			</div>
+			<div class="col-med-6">
+					<button onclick="">TNT</button>
+					<button onclick="">Dead End</button>
+					<button onclick="">Anvil</button>
+			</div>
+		</div>
 
-</footer>
+	</footer>
 
 
 
 	<script src="game.js"></script>
 </body>
+
 </html>

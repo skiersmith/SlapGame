@@ -1,1 +1,10 @@
-/*Only use this file if you want to override bootstrap or create your own style*/
+.container {
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex: column;
+}
+
+.backgroundimage {
+  width: 100%;
+  justify-content: flex-end;
+}
