@@ -6,19 +6,19 @@ function slap() {
     health -= 1
     hits += 1
     update()
-    //alert(health) 
+    
 }
 function punch() {
     health -= 5
     hits += 1
     update()
-    //alert(health) 
+    
 }
 function kick() {
     health -= 10
     hits += 1
     update()
-    //alert(health) 
+    
 }
 function update() {
     document.getElementById("hits").innerText = hits
